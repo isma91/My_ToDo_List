@@ -1,0 +1,41 @@
+body {
+	font-family:'Abel', sans-serif;
+}
+
+#titre {
+	font-family:'Pacifico', cursive;
+	font-size:3em;
+	text-align: center;
+}
+
+div.jumbotron h2 {
+	text-align: center;
+}
+
+div#faire {
+	width: 50%;
+	float: left;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	display: flex;
+	flex-direction: column;
+}
+
+div#fini {
+	width: 50%;
+	float: right;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	display: flex;
+	flex-direction: column;
+}
+
+div#ajoutTache {
+	text-align: center;
+}
+
+div#tacheFaire {
+}
+
+img.delete {
+}
