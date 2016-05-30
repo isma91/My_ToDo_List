@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>My ToDo List</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Créer des tâches, écriver des mémos, ce site est fait pour !!!" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="all" type="text/css" rel="stylesheet" href="media/css/bootstrap.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="media/css/bootstrap-theme.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="media/css/my_style.css">
+    <script src="media/js/toDo.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+    <div class="container">
+        <noscript>CE SITE NEED JAVASCRIPT !!!!</noscript>
+        <div class="jumbotron">
+            <h1 id="titre">My ToDo List</h1>
+            <h2>Vous n'êtes pas organiser ?? Ce site est fait pour vous aider !!</h2>
+            <div id="ajoutTache">
+                <h2>Ajouter une tâche :</h2>
+                <label>Le titre :</label>
+                <input type="text" name="ajoutTitre" id="ajoutTitre" />
+                <label>La tâche à faire :</label>
+                <input type="text" name="ajout" id="ajout" />
+                <input type="submit" name="valider" value="Ajouter Tache" id="valider" />
+            </div>
+            <p>Pour valider une tâche cliquer sur cette image qui est dans la tâche => <img src="media/icons/validate.png" alt="validate" /></p>
+            <p>Pour supprimer une tâche cliquer sur cette image qui est dans la tâche => <img src="media/icons/delete.png" alt="delete" /></p>
+        </div>
+        <div id="faire">
+            <h2>A Faire :</h2>
+            <div id="tacheFaire">
+          </div>
+      </div>
+      <div id="fini">
+        <h2>Fini :</h2>
+    </div>
+</div>
+</body>
+</html>
