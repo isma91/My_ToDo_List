@@ -15,6 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
         valeurAjoutTitre = valeurAjoutTitre.trim();
         valeurAjout = document.getElementById('ajout').value;
         valeurAjout = valeurAjout.trim();
+        document.getElementById('ajoutTitre').value = "";
+        document.getElementById('ajout').value = "";
         if (valeurAjoutTitre !== "" && valeurAjout !== "") {
             compteur = compteur + 1;
             document.getElementById('faire').innerHTML = document.getElementById('faire').innerHTML + '<div class="panel panel-default" id="panel_' + compteur + '"><div class="panel-heading"><h3 class="panel-title" id="panel_title_' + compteur + '">' + valeurAjoutTitre + '</h3><img class="delete" src="media/icons/delete.png" alt="delete" onclick="remove_panel(' + compteur + ')" /></div><div class="panel-body" id="panel_body_' + compteur + '">' + valeurAjout + '<img class="validate" src="media/icons/validate.png" alt="validation" onclick="validate_panel(' + compteur + ')" /></div></div>';
